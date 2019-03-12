@@ -1,50 +1,51 @@
 body {
   background-color: #eee;
 }
-header{
+header {
   display: flex;
   justify-content: space-around;
-flex-direction: row;
-align-items:flex-start;
+
+}
 h1 {
-  width: 500px;
-  font-size: 1em;
-
+  width: 50%;
+  font-size: 2em;
 
 
 }
-.img1
-{
+
+
+img {
   width: 100px;
-position: absolute;
+  position: static;
+
+
 }
-}
+
 .nav-bar{
+
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top : 3em;
+  margin-top : 2em;
 
 }
-.nav-bar a {
+.nav-bar a{
+
 
   float: left;
-  display: flex;
-  justify-content: space-around;
+  padding :16px 16px;
   color: black;
 
-  padding: 16px 16px;
+
   text-decoration: none;
   font-size: 20px;
 
   }
 .floating-image{
-  width:1500px;
+    width:100%;
+    height:100px;
+}
 
-}
-image-containter{
-  color: black;
-}
 .image-text{
   color: gray;
   font-size: 1em;
@@ -53,9 +54,7 @@ image-containter{
   display:flex;
   justify-content: space-between;
 }
-score-card {
-color:gray;
-}
+
 .score-head{
   display:flex;
   flex-direction: row;
@@ -68,9 +67,7 @@ color:gray;
   justify-content: space-around;
   flex-direction: row;
 }
-weather{
 
-}
 .city{
   font-size: 2em;
 
@@ -89,11 +86,21 @@ weather{
 .bottom-news-head{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 2em;
 }
-.bottom-news-body {
-  width: 50%;
+
+.bottom-news-element {
+  min-width: 100%;
+
 }
-footer{
+h3{
+  display: flex;
+  justify-content: center;
+
+  color: gray;
+
+}
+.footer{
   display:flex;
   justify-content: space-around;
 }

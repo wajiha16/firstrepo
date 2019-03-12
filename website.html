@@ -1,143 +1,386 @@
-<DOCTYPE HTML>
+<!DOCTYPE html>
+
 <html>
-<head>
-<title> my first website</title>
-<link rel = "stylesheet" type = "text/css" href ="style.css">
-<body>
-<header>
-<h1> The Brighton Timesksafahfuash </h1>
-<img  class = "im1" src= "city.png" style="width:100px; height: 80px;"/>
-</header>
-<hr class = "hr"/>
-<div>
-<div class= "folder">
-<div class = "file">News</div>
-<div class = "file">Events</div>
-<div class = "file">Culture</div>
-<div class = "file">Blog</div>
-</div>
-<img class= "img2" src = "dog.jpg"/>
-<h2> Absolutely astonishing breaking news!</h2>
-<h3> Organic raw denim vice keffiyeh lomo kickstater art lomo kickstater art four loko.organic denim vice keffiyah lomo kickstater art lomo kickstater art four loko.</h3>
-<h4> Top news</h4>
-<hr class= "hr"/>
-<ul style = "list-style-type:none;">
-<li> >> gastropub distillery marfa farm-to-table,esty truffaut fingerstache.</li>
-<hr class "1"="hr"/>
-<li> >> squid lomo kickstater art lomo kickstater art party cronut scenester.</li>
-<hr class "2"="hr"/>
-<li> >> organic raw denim vice keffiyeh lomo kickstater art lomo kickstater art four loko.</li>
-<hr class "3" ="hr"/>
-<li> >> gastropub distelliry marfa farm-to-table,etsy truffaut fingerstache.</li>
-<hr class  "4"="hr"/>
-<li> >> squid lomo kickstater art lomo kickstater art party cronut scenester.</li>
-<hr class "5" ="hr"/>
-</ul>
-<table style= "width: 100%">
-  <tr>
-    <th>date</th>
-    <th>team</th>
-    <th>score</th>
-    <th>team</th>
-  </tr>
-  <tr>
-    <td>friday</td>
-    <td>bears</td>
-    <td>95     109</td>
-    <td>cubs</td>
-  </tr>
-  <tr>
-    <td>friday</td>
-    <td>otters</td>
-    <td>3  1</td>
-    <td>cubs</td>
-  </tr>
-  <tr>
-    <td>saturday</td>
-    <td>wolves</td>
-    <td> 7 0</td>
-    <td>panthers</td>
-  </tr>
-  <tr>
-    <td>sunday</td>
-    <td>hawks</td>
-    <td>11 12</td>
-    <td>capons</td>
-  </tr>
-  <tr>
-    <td>monday</td>
-    <td>stags</td>
-    <td>6 2</td>
-    <td>foxes</td>
-  </tr>
-</table>
-<h5>Brighton,UK SUNNY</h5>
-<img class= "img3" src = "weather.png"/>
-<div>
-<div class= "folder1">
-<div class = "file1">mon</div>
-<div class = "file1">tues</div>
-<div class = "file1">wed</div>
-<div class = "file1">thur</div>
-<div class = "file1">fri</div>
-</div>
-<div class= "folder3">
-<img class= "img3" src = "sunny.png"/>
-<img class= "img4" src = "cloudy.png"/>
-<img class= "img5" src = "cloudy.png"/>
-<img class= "img6" src = "rain.png"/>
-<img class= "img7" src = "sunny.png"/>
 
-</div>
-<div>
-<div class= "folder4">
-<div class = "file2">13&#8451;</div>
-<div class = "file2">13&#8451;</div>
-<div class = "file2">13&#8451;</div>
-<div class = "file2">13&#8451;</div>
-<div class = "file2">13&#8451;</div>
-</div>
-<h5>Latest news</h5>
-<hr class= "hr"/>
+  <head>
 
-<span>
- <img class = "img8" src="dog.jpg" />
- <h6>Gastropub Distrillery Marfa Form-to-table</h6>
- <p>gastropub distrillery marfa forto-table,esty truffaut fingerstache.
-   squid lomo kickstater art party cronut scenester.
-   organic raw denim vice keffiyeh four loko.</p>
- </span>
- <span>
- <div class= "container1">
+    <link type="text/css" rel="stylesheet" href="style.css" />
 
-  <img class = "img9" src="dog.jpg" />
-  <h7>Organi Raw keffiyeh four loko</h7>
-  <p> astropub distrillery marfa forto-table,esty truffaut fingerstache.
-    squid lomo kickstater art party cronut scenester.
-    organic raw denim vice keffiyeh four loko.
-  </p>
- </div>
-  </span>
-  <span class= "container2">
+    <title>my first website</title>
 
-   <img class = "img10" src="dog.jpg" />
-   <h7>Organi Raw keffiyeh four loko</h7>
-   <p> astropub distrillery marfa forto-table,esty truffaut fingerstache.
-     squid lomo kickstater art party cronut scenester.
-     organic raw denim vice keffiyeh four loko.</p>
-   </span>
+    <meta charset="UTF-8">
+
+  </head>
+
+  <body>
 
 
-   <span class= "container3">
 
-    <img class = "img11" src="dog.jpg" />
-    <h7>Organi Raw keffiyeh four loko</h7>
-     <p>astropub distrillery marfa forto-table,esty truffaut fingerstache.
-      squid lomo kickstater art party cronut scenester.
-      organic raw denim vice keffiyeh four loko.
-    </pr>
 
-  </span>
 
-</head>
+      <section class="main">
+
+        <header><!--setting img using object-fit*/-->
+
+          <img class ="img" src="./images/city.png" >
+
+          <h1> The Brighton Times</h1>
+
+        </header>
+
+        <section class="nav-bar" >
+
+          <nav>
+
+            <a href="#">news</a>
+            <a href="#">events</a>
+
+            <a href="#">culture</a>
+
+            <a href="#">blog</a>
+          </nav>
+
+        </section>
+
+        <!-- <section class="nav-bar-img"> -->
+
+        <section class="image-containter">
+
+            <img class="floating-image" src="./images/dog.jpg" alt="Dog Image">
+
+            <!-- <div class="cover-top"></div> -->
+
+            <div class="image-text">
+
+              <h2>Absolute astonishing breaking news        !</h2>
+
+              <p>Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko. Organic raw denims. Vice Keffiyeh lomo Kickstarter art lomo Kickstarter art four loko.</p>
+
+            </div>
+
+        </section>
+
+      <!-- </section> -->
+
+        <section class=news-section>
+
+          <div class="news-head">
+
+            <p>Top News</p>
+
+            <p> + more </p>
+
+          </div>
+
+          <div class="news-body">
+
+              <!-- <hr > -->
+
+              <p class="news-item">Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.</p>
+
+              <!-- <hr class="news-breaker"> -->
+
+              <p class="news-item"> Squid lomo Kickstarter art lomo Kickstarter art party cronut scenester.</p>
+
+              <!-- <hr class="news-breaker"> -->
+
+              <p class="news-item">Organic raw denim lomo Kickstarter art Vice keffiyeh four loko.</p>
+
+              <!-- <hr class="news-breaker"> -->
+
+              <p class="news-item"> Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko.</p>
+
+              <!-- <hr class="news-breaker"> -->
+
+              <p class="news-item">Gastropub distillery Marfa farm-to-table, Etsy Truf faut fingerstache</p>
+
+              <!-- <hr class="news-breaker"> -->
+
+              <p class="news-item">Squid lomo Kickstarter art lomo Kickstarter art party cronut scenester.</p>
+
+
+            <!-- <hr> -->
+
+          </div>
+
+        </section>
+
+        <section class="score-card">
+
+            <div class="score-head">
+
+
+
+              <p>date</p>
+
+              <p>team</p>
+
+              <p>score</p>
+
+              <p>team</p>
+
+            </div>
+
+            <div class="score-body">
+
+              <div class="score-item">
+
+                <p>Friday</p>
+
+                <p>Bears</p>
+
+                <p>95 <span>109</span></p>
+
+                <p><span>Cubs</span></p>
+
+              </div>
+
+              <div class="score-item">
+
+                <p>Friday</p>
+
+                <p><span>Others</span></p>
+
+                <p> <span>3</span> 1</p>
+
+                <p>Cubs</p>
+
+              </div>
+
+              <div class="score-item">
+
+                <p>Saturday</p>
+
+                <p><span>Wolves</span></p>
+
+                <p><span>7</span> 0</p>
+
+                <p>Panthers</p>
+
+              </div>
+
+              <div class="score-item">
+
+                <p>Sunday</p>
+
+                <p>Hawks</p>
+
+                <p>11 <span>12</span></p>
+
+                <p><span>Capons</span></p>
+
+              </div>
+
+              <div class="score-item">
+
+                <p>Sunday</p>
+
+                <p><span>Stags</span></p>
+
+                <p><span>6</span>  2</p>
+
+                <p>Foxes</p>
+
+              </div>
+
+            </div>
+
+        </section>
+
+        <!-- <hr > -->
+
+      <!-- <section class="second"> -->
+
+        <section class="weather">
+
+            <div class="city">
+
+              <p >Brighton, UK</p>
+
+              <p>Sunny</p>
+
+            </div>
+
+            <div class="cur-temp">
+
+              <img src="./images/weather.png">
+
+              <p>13 &#8451;</p>
+
+            </div>
+
+            <!-- <div class="weather-estimates"> -->
+
+              <div class="weather-days">
+
+                <div >
+
+                  <p>Mon</p>
+
+                  <img src="./images/sunny.png">
+
+                  <p>13 &#8451;</p>
+
+
+
+                </div>
+
+                <div >
+
+                  <p>Tues</p>
+
+                  <img src="./images/cloudy.png">
+
+                  <p>13 &#8451;</p>
+
+
+
+                </div>
+
+                <div >
+
+                  <p>Wed</p>
+
+                  <img src="./images/cloudy.png">
+
+                  <p>13 &#8451;</p>
+
+
+
+                </div>
+
+                <div >
+
+                  <p>Thu</p>
+
+                  <img src="./images/rain.png">
+
+                  <p>13 &#8451;</p>
+
+
+
+                </div>
+
+                <div >
+
+                  <p>Fri</p>
+
+                  <img src="./images/sunny.png">
+
+                  <p>13 &#8451;</p>
+
+
+
+                </div>
+
+
+
+
+
+              </div>
+
+
+
+            <!-- </div> -->
+
+        </section>
+
+        <section class="bottom-news-section">
+
+          <div class="bottom-news-head">
+
+            <p >Latest News</p>
+
+            <p> + more</p>
+
+          </div>
+
+
+
+          <div class="bottom-news-body">
+
+            <div class="bottom-news-element">
+
+
+
+              <img src="./images/dog.jpg">
+
+
+
+              <div>  <h3>Gastropub distillery Marfa farm-to-table<br></h3>
+
+                <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut ngerstache. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester.Organic raw denim Vice ke yeh four loko.Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice ke yeh four loko.Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice ke yeh four loko.</p>
+
+              </div>
+
+            </div>
+
+            <div class="bottom-news-element">  
+
+              <img src="./images/dog.jpg">
+
+
+
+                  <div> <h3>Organic raw ke yeh four loko.</h3>
+
+                  <p>Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice ke yeh four loko.Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice loko.</p>
+
+              </div>
+
+            </div>
+
+            <div class="bottom-news-element">
+
+
+
+              <img src="./images/dog.jpg">
+
+
+
+              <div>  <h3>Kickstarter art party cronut scenester.<br></h3>
+
+                <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut ngerstache. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice ke yeh four loko.Vice ke yeh four loko.</p>
+
+              </div>
+
+            </div>
+
+            <div class="bottom-news-element">
+
+
+
+              <img src="./images/dog.jpg">
+
+
+
+              <div >  <h3>Squid lomo Kickstarter art party cronut<br></h3>
+
+                  <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut ngerstache. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice ke yeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice ke yeh four loko.Vice ke yeh four loko.</p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <footer>
+
+          <p>Contact Us</p>
+
+          <p>Follow us on twitter</p>
+
+          <p>RSS</p>
+
+        </footer>
+
+      </section>
+
+
+
+  </body>
+
+</section>
+
 </html>
