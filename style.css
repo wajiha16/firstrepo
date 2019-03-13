@@ -54,17 +54,20 @@ img {
   display:flex;
   justify-content: space-between;
 }
-
 .score-head{
+  display: flex;
+  justify-content: space-around;
+}
+
+.score-body{
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   color: gray;
 }
-
 .score-item{
-  display:flex;
-  justify-content: space-around;
+  display: flex;
+  justify-content:space-around;
   flex-direction: row;
 }
 
@@ -88,19 +91,16 @@ img {
   justify-content: space-between;
   margin-bottom: 2em;
 }
-
-.bottom-news-element {
-  min-width: 100%;
-
-}
-h3{
+.bottom-news-element{
+  width:300%;
   display: flex;
-  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
 
-  color: gray;
+
 
 }
-.footer{
+footer{
   display:flex;
   justify-content: space-around;
 }
