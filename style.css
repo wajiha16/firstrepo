@@ -6,6 +6,7 @@ body {
 header {
   display: flex;
   justify-content: space-around;
+  
 
 }
 h1 {
@@ -16,10 +17,10 @@ h1 {
 
 }
 
-
 .img {
   width: 100px;
   position: static;
+
 
 
 }
