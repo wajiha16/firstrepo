@@ -6,7 +6,7 @@ body {
 header {
   display: flex;
   justify-content: space-around;
-  
+
 
 }
 h1 {
@@ -115,7 +115,7 @@ h1 {
 .bottom-news-head{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 3em;
+
   margin-top: 2em;
 }
 .bottom-news-element img {
@@ -146,5 +146,5 @@ footer {
   display:flex;
   justify-content: space-around;
 
-  margin:2em;
+  margin:1em;
 }
